@@ -22,3 +22,16 @@ body {
   letter-spacing: -3%;
   text-decoration: none;
 }
+
+.nav-menu-list a{
+    text-decoration: none;
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -2%;
+}
+
+.nav-menu-list li{
+    list-style-type: none;
+}
