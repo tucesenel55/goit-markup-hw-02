@@ -7,7 +7,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.15;
   color: #4d5ae5;
   letter-spacing: -3%;
   text-decoration: none;
@@ -17,7 +17,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.15;
   color: #2e2f42;
   letter-spacing: -3%;
   text-decoration: none;
@@ -28,18 +28,30 @@ body {
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: -2%;
 }
+
+.nav-menu-list a:hover {
+  color: #404bbf;
+}
+
+/* .nav-menu-list a:active{
+  color:#404BBF;
+} */
 
 .nav-menu-list li {
   list-style-type: none;
 }
 
+.nav-address-list a:hover {
+  color: #404bbf;
+}
+
 .nav-address-list a {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: -2%;
   text-decoration: none;
   color: #434455;
@@ -57,7 +69,7 @@ body {
   text-align: center;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.5;
   letter-spacing: -2%;
   color: #ffffff;
 }
@@ -66,17 +78,22 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.15;
   letter-spacing: -4%;
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
 }
 
+.section-efective-solutions button:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
 .section-strategy h3 {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: -2%;
   color: #2e2f42;
 }
@@ -84,7 +101,7 @@ body {
 .section-strategy p {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: -2%;
   color: #434455;
 }
@@ -104,7 +121,7 @@ body {
 .section-ourteam h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.7;
   letter-spacing: -2%;
   text-align: center;
 }
@@ -113,7 +130,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: -2%;
   text-align: center;
 }
@@ -121,7 +138,7 @@ body {
 .section-ourteam p {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.01;
   letter-spacing: -2%;
   text-align: center;
 }
@@ -138,7 +155,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.5;
   letter-spacing: -2%;
   text-align: center;
 }
@@ -147,7 +164,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: -2%;
 }
 
@@ -155,7 +172,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.01;
   letter-spacing: -2%;
 }
 
@@ -167,7 +184,7 @@ footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.5;
   letter-spacing: -3%;
   color: #4d5ae5;
   text-decoration: none;
@@ -177,7 +194,7 @@ footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.5;
   letter-spacing: -3%;
   color: #f4f4fd;
   text-decoration: none;
@@ -186,7 +203,7 @@ footer {
 footer p {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: -2%;
   color: #f4f4fd;
 }
