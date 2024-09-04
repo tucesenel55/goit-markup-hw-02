@@ -151,12 +151,46 @@ body {
   letter-spacing: -2%;
 }
 
-.section-our-portfolio p{
-
+.section-our-portfolio p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -2%;
+}
 
+footer {
+  background-color: #2e2f42;
+}
+
+.footer-logo-web {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -3%;
+  color: #4d5ae5;
+  text-decoration: none;
+}
+
+.footer-logo-studio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -3%;
+  color: #f4f4fd;
+  text-decoration: none;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -2%;
+  color: #f4f4fd;
+}
+
+.footer {
+  background-color: #2e2f42;
 }
