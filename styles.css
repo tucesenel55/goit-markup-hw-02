@@ -23,15 +23,43 @@ body {
   text-decoration: none;
 }
 
-.nav-menu-list a{
-    text-decoration: none;
-    color: #2E2F42;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: -2%;
+.nav-menu-list a {
+  text-decoration: none;
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -2%;
 }
 
-.nav-menu-list li{
-    list-style-type: none;
+.nav-menu-list li {
+  list-style-type: none;
+}
+
+.nav-address-list a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  text-decoration: none;
+
+  color: #434455;
+}
+
+.nav-address-list li {
+  list-style-type: none;
+}
+
+.section-1 h1 {
+text-align: center;
+font-weight: 700;
+font-size: 56px;
+line-height: 60px;
+letter-spacing: 2%;
+
+}
+
+.section-1 button{
+  cursor:pointer;
 }
